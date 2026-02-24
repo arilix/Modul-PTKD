@@ -45,7 +45,7 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 
 | Kategori | Keterangan |
 |----------|------------|
-| **Software (ALPRO)** | IDE Code::Blocks 17.12 atau yang lebih baru |
+| **Software (ALPRO)** | IDE Code::Blocks 17.12+ atau VS Code dengan C++ Extension |
 | **Software (Jaringan)** | Cisco Packet Tracer 7.x atau yang lebih baru |
 | **Pengetahuan Dasar** | Logika dasar, pengenalan komputer |
 | **OS** | Windows / Linux / macOS |
@@ -91,6 +91,11 @@ Setelah menyelesaikan praktikum PTKD ini, mahasiswa diharapkan mampu:
 **Code::Blocks (ALPRO):**
 - Windows: [codeblocks.org](http://www.codeblocks.org/downloads)
 - Linux: `sudo apt install codeblocks`
+
+**Visual Studio Code (ALPRO - Alternatif):**
+- Download: [code.visualstudio.com](https://code.visualstudio.com/)
+- Extension: C/C++ (ms-vscode.cpptools)
+- Compiler: MinGW (Windows) atau g++ (Linux/macOS)
 
 **Cisco Packet Tracer (Jaringan):**
 - Download: [Cisco Networking Academy](https://www.netacad.com/courses/packet-tracer)
