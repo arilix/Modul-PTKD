@@ -19,6 +19,9 @@ Mempelajari konsep dasar pemrograman menggunakan bahasa C++, meliputi:
 - Tipe data, variabel, dan operator
 - Struktur program sekuensial
 - Input/output dan pengenalan C++
+- Struktur percabangan (IF-ELSE, SWITCH-CASE, Nested IF, Ternary Operator)
+- Struktur perulangan (FOR, WHILE, DO-WHILE, Nested Loop)
+- Penerapan percabangan dan perulangan dalam studi kasus
 
 ### 2. 🌐 Jaringan dan Data
 Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, meliputi:
@@ -28,7 +31,9 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 - Subnetting dan addressing
 - Simulasi jaringan sederhana
 
-> **Catatan:** Modul jaringan akan tersedia dalam waktu dekat. Saat ini tersedia materi ALPRO.
+> **Catatan:** 
+> - Modul ALPRO 1-4 sudah tersedia (Algoritma, C++ Dasar, Percabangan, Perulangan)
+> - Modul jaringan akan tersedia dalam waktu dekat
 
 
 ## Daftar Praktikum ALPRO
@@ -37,7 +42,10 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 |----|-----------|-------|
 | 1 | [Praktikum 1](Modul%201&2/01_algoritma_pemrograman.md) | Algoritma dan Pemrograman |
 | 2 | [Praktikum 2](Modul%201&2/02_pengenalan_cpp.md) | Pengenalan C++ |
-| 🎁 | [**SURPRISE!**](Modul%201&2/surprise.md) | **Kumpulan Tugas Praktikum** |
+| 🎁 | [**Tugas Praktikum 1&2**](Modul%201&2/surprise.md) | Kumpulan Tugas Modul 1&2 |
+| 3 | [Praktikum 3](Modul%203&4/03_percabangan.md) | Percabangan (Branching) |
+| 4 | [Praktikum 4](Modul%203&4/04_perulangan.md) | Perulangan (Looping) |
+| 🎁 | [**Tugas Praktikum 3&4**](Modul%203&4/surprise.md) | Kumpulan Tugas Modul 3&4 |
 
 
 
@@ -61,6 +69,9 @@ Setelah menyelesaikan praktikum PTKD ini, mahasiswa diharapkan mampu:
 3. Menyusun program sekuensial sederhana dan kompleks
 4. Menggunakan flowchart dalam perancangan program
 5. Menerapkan operator dan tipe data dalam pemrograman
+6. Mengimplementasikan struktur percabangan (IF-ELSE, SWITCH-CASE)
+7. Mengimplementasikan struktur perulangan (FOR, WHILE, DO-WHILE)
+8. Menggabungkan percabangan dan perulangan dalam program kompleks
 
 **Jaringan dan Data:**
 1. Memahami konsep dasar jaringan komputer
