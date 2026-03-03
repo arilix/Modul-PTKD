@@ -56,7 +56,7 @@ Program menerima data mahasiswa dan menentukan kelayakan penerimaan beasiswa ber
 ```
 NIM_Nama/
 └── Praktikum3/
-    └── beasiswa_mahasiswa
+    └── beasiswa_mahasiswa.pdf
 ```
 
 ---
