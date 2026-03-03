@@ -46,8 +46,6 @@ Program menerima data mahasiswa dan menentukan kelayakan penerimaan beasiswa ber
    - Gunakan operator ternary untuk menentukan status akhir: "DITERIMA" atau "DITOLAK"
 
 
-```
-
 **Ketentuan:**
 - Program harus menggabungkan minimal 4 jenis percabangan dalam satu alur logis
 - Tambahkan validasi input untuk setiap data yang dimasukkan
