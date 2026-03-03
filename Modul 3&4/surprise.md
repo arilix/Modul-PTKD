@@ -20,40 +20,6 @@ Program dapat menerima data beberapa mahasiswa, menganalisis nilai, dan menentuk
 
 ## 🎯 MENU PROGRAM
 
-<<<<<<< HEAD
-1. **Validasi Usia (Nested IF):**
-   - Jika usia < 17: "Belum memenuhi syarat usia minimum"
-   - Jika usia 17-25: Lanjut ke pengecekan berikutnya
-   - Jika usia > 25: "Melebihi batas usia maksimum"
-
-2. **Pengecekan IPK (IF-ELSE):**
-   - IPK >= 3.5: "IPK Sangat Baik"
-   - IPK >= 3.0 dan < 3.5: "IPK Baik"
-   - IPK >= 2.75 dan < 3.0: "IPK Cukup"
-   - IPK < 2.75: "IPK tidak memenuhi syarat minimum"
-
-3. **Jenis Beasiswa (SWITCH-CASE):**
-   - Case 1 (Akademik): Syarat IPK minimal 3.5
-   - Case 2 (Prestasi): Syarat IPK minimal 3.0
-   - Case 3 (Kurang Mampu): Syarat IPK minimal 2.75 DAN penghasilan orang tua < Rp 3.000.000
-   - Default: "Pilihan tidak valid"
-
-4. **Status Kelayakan (Operator Ternary):**
-   - Gunakan operator ternary untuk menentukan status akhir: "DITERIMA" atau "DITOLAK"
-
-
-**Ketentuan:**
-- Program harus menggabungkan minimal 4 jenis percabangan dalam satu alur logis
-- Tambahkan validasi input untuk setiap data yang dimasukkan
-- Berikan keterangan yang jelas mengapa diterima atau ditolak
-
-
-**Kumpulkan semua tugas dalam satu laporan praktikum:**
-```
-NIM_Nama/
-└── Praktikum3/
-    └── beasiswa_mahasiswa.pdf
-=======
 ```
 === SISTEM PENILAIAN & BEASISWA ===
 1. Input Data Mahasiswa
@@ -186,10 +152,7 @@ B  : *** (3 mahasiswa)
 **Format:**
 ```
 NIM_Nama/
-├── source_code.cpp
-├── screenshot_output.png
 └── laporan.pdf
->>>>>>> c96239a (revisi tugas)
 ```
 
 **Isi Laporan:**
