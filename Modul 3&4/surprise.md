@@ -30,8 +30,7 @@ NIM_Nama/
 2. Flowchart program (minimal menu utama dan 2 fitur)
 3. Source code lengkap dengan komentar
 4. Screenshot hasil running (semua menu)
-5. Tabel testing dengan berbagai input
-6. Kesimpulan
+5. Kesimpulan
 
 ---
 
