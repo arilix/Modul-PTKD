@@ -2,30 +2,30 @@ Laboratorium Teknik Komputer
 
 
 
-# TUGAS PRAKTIKUM
+# TUGAS PRAKTIKUM ALTERNATIF
 # PEMROGRAMAN MODUL 3 & 4
 
 
-## STUDI KASUS: SISTEM PENILAIAN DAN BEASISWA MAHASISWA
+## STUDI KASUS: ANALISIS BILANGAN GENAP DAN GANJIL
 
-Buatlah program C++ untuk mengelola data nilai mahasiswa dan menentukan penerimaan beasiswa yang menggabungkan **SEMUA** konsep dari **Modul 3 (Percabangan)** dan **Modul 4 (Perulangan)**.
+Buatlah program C++ untuk menganalisis bilangan genap dan ganjil dalam range tertentu yang menggabungkan konsep dari **Modul 3 (Percabangan)** dan **Modul 4 (Perulangan)**.
 
 ---
 
 ## 📋 DESKRIPSI PROGRAM
 
-Program dapat menerima data beberapa mahasiswa, menganalisis nilai, dan menentukan kelayakan beasiswa. Program berjalan dengan sistem menu yang terus berulang sampai user memilih keluar.
+Program dapat melakukan berbagai analisis terhadap bilangan genap dan ganjil, serta operasi matematika lainnya. Program berjalan dengan sistem menu yang terus berulang sampai user memilih keluar.
 
 ---
 
 ## 🎯 MENU PROGRAM
 
 ```
-=== SISTEM PENILAIAN & BEASISWA ===
-1. Input Data Mahasiswa
-2. Tampilkan Data Mahasiswa
-3. Cek Kelayakan Beasiswa
-4. Statistik Kelas
+=== ANALISIS BILANGAN GENAP & GANJIL ===
+1. Analisis Range Bilangan
+2. Cek Properti Bilangan
+3. Deret Bilangan Custom
+4. Statistik Lengkap
 5. Keluar
 Pilih menu (1-5):
 ```
@@ -36,96 +36,140 @@ Program terus berjalan sampai user pilih menu keluar.
 
 ## 📝 DETAIL FITUR
 
-### **FITUR 1: Input Data Mahasiswa**
+### **FITUR 1: Analisis Range Bilangan**
 
-Input data untuk beberapa mahasiswa (maksimal 30 mahasiswa):
-- NIM
-- Nama
-- Usia
-- IPK (0.00-4.00)
-- Jenis beasiswa yang dipilih:
-  - 1 = Beasiswa Akademik
-  - 2 = Beasiswa Prestasi  
-  - 3 = Beasiswa Kurang Mampu
-- Penghasilan orang tua (hanya untuk jenis beasiswa kurang mampu)
+Input bilangan bulat positif n (1-1000).
 
-**Validasi yang harus ada:**
-- Usia: 17-25 tahun
-- IPK: 0.00-4.00
-- Jenis beasiswa: 1, 2, atau 3
-- Penghasilan: tidak boleh negatif
+**Output yang harus ditampilkan:**
 
----
+**1. Bilangan Genap:**
+- Tampilkan semua bilangan genap dari 1 hingga n
+- Hitung jumlah total bilangan genap
+- Hitung rata-rata bilangan genap
 
-### **FITUR 2: Tampilkan Data Mahasiswa**
+**2. Bilangan Ganjil:**
+- Tampilkan semua bilangan ganjil dari 1 hingga n
+- Hitung jumlah total bilangan ganjil
+- Hitung rata-rata bilangan ganjil
 
-Tampilkan semua data mahasiswa dalam bentuk tabel dengan kolom:
-- No
-- NIM
-- Nama
-- Usia
-- IPK
-- Grade (A/B+/B/C+/C/D)
-- Jenis Beasiswa
+**3. Perbandingan:**
+- Tampilkan mana yang lebih besar: jumlah genap atau ganjil
+- Hitung selisih antara jumlah genap dan ganjil
+- Tampilkan persentase genap dan ganjil
 
-**Konversi IPK ke Grade:**
-- IPK >= 3.50: A
-- IPK >= 3.00: B+
-- IPK >= 2.75: B
-- IPK >= 2.50: C+
-- IPK >= 2.00: C
-- IPK < 2.00: D
+**Validasi:**
+- n harus bilangan positif (> 0)
+- n maksimal 1000
+- Jika tidak valid, minta input ulang
 
 ---
 
-### **FITUR 3: Cek Kelayakan Beasiswa**
+### **FITUR 2: Cek Properti Bilangan**
 
-Untuk setiap mahasiswa, cek kelayakan berdasarkan jenis beasiswa yang dipilih:
+Input sebuah bilangan bulat, kemudian program akan mengecek berbagai properti:
 
-**Beasiswa Akademik:**
-- Usia 17-23 tahun
-- IPK >= 3.50
+**Pengecekan yang harus ada:**
 
-**Beasiswa Prestasi:**
-- Usia 17-24 tahun
-- IPK >= 3.25
+**A. Kategori Dasar (IF-ELSE):**
+- Bilangan positif, negatif, atau nol
+- Bilangan genap atau ganjil
+- Bilangan satu digit, dua digit, atau lebih
 
-**Beasiswa Kurang Mampu:**
-- Usia 17-25 tahun
-- IPK >= 2.75
-- Penghasilan orang tua < Rp 3.000.000
+**B. Kategori Khusus (Nested IF):**
+- Bilangan prima atau bukan
+- Bilangan sempurna atau bukan (jumlah faktor = bilangan itu sendiri)
+- Bilangan kuadrat sempurna atau bukan
 
-Tampilkan hasil untuk setiap mahasiswa: **DITERIMA** atau **DITOLAK** beserta alasannya.
+**C. Kategori Matematika (SWITCH-CASE):**
+
+Berikan opsi kategori yang ingin dicek:
+```
+1. Kelipatan 3, 5, atau bukan keduanya
+2. Angka puluhan (10-19, 20-29, dst)
+3. Faktorial bilangan (jika <= 10)
+4. Kembali ke menu utama
+```
+
+**Output:**
+- Tampilkan semua properti yang ditemukan
+- Berikan kesimpulan apakah bilangan "spesial" atau "biasa"
+  - Spesial: jika prima ATAU sempurna ATAU kuadrat sempurna
+  - Biasa: jika tidak memenuhi kriteria spesial
 
 ---
 
-### **FITUR 4: Statistik Kelas**
+### **FITUR 3: Deret Bilangan Custom**
 
-Tampilkan informasi statistik:
+Input:
+- Bilangan awal (a)
+- Bilangan akhir (b)
+- Tipe deret yang diinginkan
+
+**Tipe Deret (SWITCH-CASE):**
+
+**Case 1 - Genap Saja:**
+- Tampilkan hanya bilangan genap dari a ke b
+- Hitung jumlah dan rata-rata
+
+**Case 2 - Ganjil Saja:**
+- Tampilkan hanya bilangan ganjil dari a ke b
+- Hitung jumlah dan rata-rata
+
+**Case 3 - Kelipatan Tertentu:**
+- Input kelipatan (misal: 3, 5, 7)
+- Tampilkan bilangan kelipatan tersebut dari a ke b
+- Hitung jumlah dan rata-rata
+
+**Case 4 - Prima Saja:**
+- Tampilkan hanya bilangan prima dari a ke b
+- Hitung jumlah dan rata-rata
+
+**Case 5 - Custom Pattern:**
+- Input pola: G (genap) atau J (ganjil)
+- Contoh: GGJGJ = genap, genap, ganjil, genap, ganjil
+- Tampilkan bilangan sesuai pola sampai mencapai b atau pola habis
+
+**Validasi:**
+- a <= b
+- a dan b dalam range -1000 sampai 1000
+- Untuk kelipatan: harus > 0
+
+---
+
+### **FITUR 4: Statistik Lengkap**
+
+Input range bilangan (mulai dan akhir), program akan menampilkan:
 
 **Statistik Umum:**
-- Total mahasiswa
-- IPK tertinggi (dan nama mahasiswa)
-- IPK terendah (dan nama mahasiswa)
-- Rata-rata IPK kelas
+- Total bilangan dalam range
+- Jumlah bilangan genap
+- Jumlah bilangan ganjil
+- Bilangan terbesar dan terkecil
+- Sum total semua bilangan
+- Rata-rata semua bilangan
 
-**Distribusi Grade (tampilkan dengan bintang):**
+**Distribusi (tampilkan dengan grafik bintang):**
 ```
-A  : **** (4 mahasiswa)
-B+ : ***** (5 mahasiswa)
-B  : *** (3 mahasiswa)
-...
+Positif : ********** (10 bilangan)
+Negatif : ***** (5 bilangan)
+Nol     : * (1 bilangan)
+
+Genap   : ******** (8 bilangan)
+Ganjil  : ******** (8 bilangan)
+
+Prima   : **** (4 bilangan)
+Komposit: *********** (11 bilangan)
 ```
 
-**Distribusi Beasiswa:**
-- Total pendaftar per jenis beasiswa
-- Total yang diterima per jenis beasiswa
-- Total yang ditolak per jenis beasiswa
+**Analisis Kelipatan:**
+- Berapa bilangan kelipatan 2, 3, 4, 5, dst (sampai 10)
+- Tampilkan dalam tabel
 
-**Distribusi Beasiswa:**
-- Total pendaftar per jenis beasiswa
-- Total yang diterima per jenis beasiswa
-- Total yang ditolak per jenis beasiswa
+**Bilangan Spesial yang Ditemukan:**
+- Daftar bilangan prima
+- Daftar bilangan sempurna
+- Daftar bilangan kuadrat sempurna
+- Daftar bilangan Fibonacci (jika ada dalam range)
 
 ---
 
@@ -147,6 +191,30 @@ B  : *** (3 mahasiswa)
 
 ---
 
+## 💡 HINTS
+
+**Cek Bilangan Prima:**
+```
+Bilangan prima hanya habis dibagi 1 dan dirinya sendiri
+Gunakan loop untuk cek pembagi dari 2 sampai akar bilangan
+```
+
+**Cek Bilangan Sempurna:**
+```
+Bilangan sempurna: jumlah faktor = bilangan itu sendiri
+Contoh: 6 = 1 + 2 + 3
+Gunakan loop untuk mencari semua faktor
+```
+
+**Cek Kuadrat Sempurna:**
+```
+Bilangan kuadrat sempurna: hasil dari n × n
+Contoh: 16 = 4 × 4
+Gunakan loop atau fungsi sqrt()
+```
+
+---
+
 ## 📦 PENGUMPULAN
 
 **Format:**
@@ -157,14 +225,14 @@ NIM_Nama/
 
 **Isi Laporan:**
 1. Cover
-2. Flowchart program
-3. Source code lengkap
-4. Screenshot hasil running
-5. Kesimpulan
+2. Flowchart program (minimal menu utama dan 2 fitur)
+3. Source code lengkap dengan komentar
+4. Screenshot hasil running (semua menu)
+5. Tabel testing dengan berbagai input
+6. Kesimpulan
 
 ---
 
 **Praktikum Pemrograman**
 
 **Laboratorium Teknik Komputer**
-
