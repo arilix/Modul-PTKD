@@ -1,5 +1,6 @@
 Laboratorium Teknik Komputer
 
+*Diketik di kertas A4, menggunakan font Times New Roman, ukuran 12*
 
 
 # TUGAS PRAKTIKUM ALTERNATIF
