@@ -28,7 +28,7 @@ NIM_Nama/
 ```
 
 **Isi Laporan:**
-1. Cover
+1. Cover, d.l.l
 2. Flowchart program (minimal menu utama dan 2 fitur)
 3. Source code lengkap dengan komentar
 4. Screenshot hasil running (semua menu)
