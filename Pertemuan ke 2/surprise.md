@@ -13,9 +13,8 @@ Program harus dapat:
 1. Meminta input bilangan (n atau range a–b).
 2. Menampilkan bilangan genap dan ganjil dalam range tersebut.
 3. Menghitung jumlah dan rata-rata masing-masing.
-4. Mengecek properti bilangan (positif/negatif).
-5. Gunakan For. while,Do While, if else, switch case.
-6. Minimal 3 penerapan.
+4. Mengecek properti bilangan (positif/negatif, prima, sempurna, kuadrat sempurna, dll).
+5. Menampilkan statistik sederhana (total data, min, max, sum, distribusi genap–ganjil).
 
 Program berjalan terus hingga pengguna memilih menu **Keluar**.
 
@@ -28,7 +27,7 @@ NIM_Nama/
 ```
 
 **Isi Laporan:**
-1. Cover, d.l.l
+1. Cover
 2. Flowchart program (minimal menu utama dan 2 fitur)
 3. Source code lengkap dengan komentar
 4. Screenshot hasil running (semua menu)
