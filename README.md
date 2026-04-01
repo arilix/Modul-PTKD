@@ -32,7 +32,8 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 - Simulasi jaringan sederhana
 
 > **Catatan:** 
-> - Modul ALPRO 1-4 sudah tersedia (Algoritma, C++ Dasar, Percabangan, Perulangan)
+> - Materi ALPRO saat ini tersedia untuk Pertemuan 1, 2, dan 3
+> - Cakupan materi: Praktikum 1, 2, 3, 4, 5, 6, dan 8
 > - Modul jaringan akan tersedia dalam waktu dekat
 
 
@@ -40,12 +41,16 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 
 | No | Praktikum | Topik |
 |----|-----------|-------|
-| 1 | [Praktikum 1](Modul%201&2/01_algoritma_pemrograman.md) | Algoritma dan Pemrograman |
-| 2 | [Praktikum 2](Modul%201&2/02_pengenalan_cpp.md) | Pengenalan C++ |
-| 🎁 | [**Tugas Praktikum 1&2**](Modul%201&2/surprise.md) | Kumpulan Tugas Modul 1&2 |
-| 3 | [Praktikum 3](Modul%203&4/03_percabangan.md) | Percabangan (Branching) |
-| 4 | [Praktikum 4](Modul%203&4/04_perulangan.md) | Perulangan (Looping) |
-| 🎁 | [**Tugas Praktikum 3&4**](Modul%203&4/surprise.md) | Kumpulan Tugas Modul 3&4 |
+| 1 | [Praktikum 1](Peretmuan%20ke%201/01_algoritma_pemrograman.md) | Algoritma dan Pemrograman |
+| 2 | [Praktikum 2](Peretmuan%20ke%201/02_pengenalan_cpp.md) | Pengenalan C++ |
+| 🎁 | [**Surprise Pertemuan 1**](Peretmuan%20ke%201/surprise.md) | Kumpulan Tugas Praktikum 1&2 |
+| 3 | [Praktikum 3](Pertemuan%20ke%202/03_percabangan.md) | Percabangan (Branching) |
+| 4 | [Praktikum 4](Pertemuan%20ke%202/04_perulangan.md) | Perulangan (Looping) |
+| 🎁 | [**Surprise Pertemuan 2**](Pertemuan%20ke%202/surprise.md) | Kumpulan Tugas Praktikum 3&4 |
+| 5 | [Praktikum 5](Pertemuan%20ke%203/05_procedure_function.md) | Procedure & Function |
+| 6 | [Praktikum 6](Pertemuan%20ke%203/06_rekursif.md) | Rekursif |
+| 8 | [Praktikum 8](Pertemuan%20ke%203/08_array_1_dimensi.md) | Array 1 Dimensi |
+| 🎁 | [**Surprise Pertemuan 3**](Pertemuan%20ke%203/surprise.md) | Tugas Tambahan Pertemuan 3 |
 
 
 
