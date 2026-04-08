@@ -140,10 +140,4 @@ Contoh uji singkat:
 
 ### Task 2 - Analisis Program Pencarian (`task2.cpp`)
 
-Kerjakan poin berikut:
-1. Jalankan program dengan minimal dua kata input: satu ditemukan dan satu tidak ditemukan.
-2. Catat output untuk setiap input uji.
-3. Jelaskan fungsi variabel `teks`, `cari`, `kata`, `nomorKata`, dan `ditemukan`.
-4. Jelaskan alasan penggunaan kondisi `i <= teks.length()` dan `i == teks.length()` pada loop.
-5. Uraikan mekanisme pemisahan kata dan proses perbandingan kata target.
-6. Buat kesimpulan keterkaitan program dengan konsep Sequential Search.
+_(Tugas praktikum akan diberikan oleh instruktur)_
