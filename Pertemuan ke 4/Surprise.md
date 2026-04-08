@@ -17,7 +17,7 @@ Buatlah program C++ menggunakan `struct` identitas mahasiswa dengan elemen berik
 ## Ketentuan
 
 1. Data identitas diinput secara manual melalui keyboard.
-2. Lakukan pengurutan data berdasarkan NIM menggunakan:
+2. Lakukan pengurutan data dari yang terkecil berdasarkan NIM menggunakan:
 	- Bubble Sort
 	- Selection Sort
 3. Tampilkan data sebelum dan sesudah diurutkan.
