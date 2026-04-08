@@ -32,8 +32,8 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 - Simulasi jaringan sederhana
 
 > **Catatan:** 
-> - Materi ALPRO saat ini tersedia untuk Pertemuan 1, 2, dan 3
-> - Cakupan materi: Praktikum 1, 2, 3, 4, 5, 6, dan 8
+> - Materi ALPRO saat ini tersedia untuk Pertemuan 1, 2, 3, dan 4
+> - Cakupan materi: Praktikum 1, 2, 3, 4, 5, 6, 8, 10, 11, 12, dan 13
 > - Modul jaringan akan tersedia dalam waktu dekat
 
 
@@ -51,6 +51,11 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 | 6 | [Praktikum 6](Pertemuan%20ke%203/06_rekursif.md) | Rekursif |
 | 8 | [Praktikum 8](Pertemuan%20ke%203/08_array_1_dimensi.md) | Array 1 Dimensi |
 | 🎁 | [**Surprise Pertemuan 3**](Pertemuan%20ke%203/surprise.md) | Tugas Tambahan Pertemuan 3 |
+| 10 | [Praktikum 10](Pertemuan%20ke%204/10_string.md) | String |
+| 11 | [Praktikum 11](Pertemuan%20ke%204/11_pengurutan_array.md) | Pengurutan Array |
+| 12 | [Praktikum 12](Pertemuan%20ke%204/12_pencarian_array.md) | Pencarian Array |
+| 13 | [Praktikum 13](Pertemuan%20ke%204/13_struktur_struct.md) | Struktur (Struct) |
+| 🎁 | [**Surprise Pertemuan 4**](Pertemuan%20ke%204/Surprise.md) | Tugas Tambahan Pertemuan 4 |
 
 
 
