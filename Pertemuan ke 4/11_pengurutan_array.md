@@ -240,13 +240,4 @@ Simulasi ringkas hasil akhir:
 
 ## 11.3 Tugas Praktikum
 
-### Task 1 - Analisis Program Pengurutan (`task1.cpp`)
-
-Kerjakan poin berikut:
-1. Jalankan program dan catat output data awal, hasil Bubble Sort, dan hasil Selection Sort.
-2. Jelaskan peran fungsi `Tukar`, `BubbleSort`, `SelectionSort`, dan `tampil`.
-3. Uraikan alur loop pada Bubble Sort (`i` dan `j`) beserta kondisi pertukarannya.
-4. Uraikan alur loop pada Selection Sort (`i`, `j`, dan `k`) beserta mekanisme pemilihan nilai minimum.
-5. Tulis kesimpulan perbandingan kedua metode berdasarkan proses yang terjadi pada program.
-
-
+_(Tugas praktikum akan diberikan oleh instruktur)_
