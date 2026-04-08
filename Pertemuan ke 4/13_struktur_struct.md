@@ -101,8 +101,4 @@ int main() {
 
 ## 13.3 Tugas Praktikum
 
-1. Buatlah program pendataan minimal 3 mahasiswa menggunakan `struct`.
-2. Input data yang disimpan: nama, NIM, kelas.
-3. Tampilkan seluruh data dalam bentuk tabel sederhana.
-4. Kembangkan program agar dapat mengurutkan NIM secara ascending.
-5. Sertakan flowchart dan output hasil program.
+_(Tugas praktikum akan diberikan oleh instruktur)_
