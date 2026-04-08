@@ -64,7 +64,7 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer** d
 | Kategori | Keterangan |
 |----------|------------|
 | **Software (ALPRO)** | IDE Code::Blocks 17.12+ atau VS Code dengan C++ Extension |
-| **Software (Jaringan)** | Cisco Packet Tracer 7.x+ atau GNS3 2.x+ |
+| **Software (Jaringan)** | Cisco Packet Tracer 7.x+ dan GNS3 2.x+ |
 | **Pengetahuan Dasar** | Logika dasar, pengenalan komputer |
 | **OS** | Windows / Linux / macOS |
 
