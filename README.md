@@ -24,7 +24,7 @@ Mempelajari konsep dasar pemrograman menggunakan bahasa C++, meliputi:
 - Penerapan percabangan dan perulangan dalam studi kasus
 
 ### 2. 🌐 Jaringan dan Data
-Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, meliputi:
+Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer** dan **GNS3**, meliputi:
 - Topologi jaringan
 - Protokol jaringan (TCP/IP, OSI Layer)
 - Konfigurasi perangkat jaringan (Router, Switch, PC)
@@ -64,7 +64,7 @@ Mempelajari konsep dasar jaringan komputer menggunakan **Cisco Packet Tracer**, 
 | Kategori | Keterangan |
 |----------|------------|
 | **Software (ALPRO)** | IDE Code::Blocks 17.12+ atau VS Code dengan C++ Extension |
-| **Software (Jaringan)** | Cisco Packet Tracer 7.x atau yang lebih baru |
+| **Software (Jaringan)** | Cisco Packet Tracer 7.x+ atau GNS3 2.x+ |
 | **Pengetahuan Dasar** | Logika dasar, pengenalan komputer |
 | **OS** | Windows / Linux / macOS |
 
@@ -121,6 +121,10 @@ Setelah menyelesaikan praktikum PTKD ini, mahasiswa diharapkan mampu:
 **Cisco Packet Tracer (Jaringan):**
 - Download: [Cisco Networking Academy](https://www.netacad.com/courses/packet-tracer)
 - Memerlukan registrasi akun (gratis)
+
+**GNS3 (Jaringan - Alternatif):**
+- Download: [gns3.com](https://www.gns3.com/software/download)
+- Dapat digunakan untuk simulasi jaringan yang lebih advanced
 
 
 ---
