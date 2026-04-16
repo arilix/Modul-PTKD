@@ -37,7 +37,7 @@ Catatan:
 - Penggunaan role admin/user diperbolehkan dan direkomendasikan.
 - Jika tidak memakai role, pastikan alur menu tetap jelas dan lengkap.
 
-## Penjelasan Role (Direkomendasikan)
+## Penjelasan Role 
 Jika mahasiswa menerapkan multi-role, gunakan minimal 2 role berikut:
 
 1. Admin
@@ -106,24 +106,6 @@ Contoh topik yang diperbolehkan:
 3. Gunakan format output rapi dan mudah dibaca.
 4. Rumus/perhitungan inti (jika ada) harus konsisten dan dijelaskan di komentar/laporan.
 5. Nama variabel/fungsi harus relevan dengan topik yang dipilih.
-
-## Format Pengumpulan
-Gunakan struktur folder berikut:
-
-```text
-NIM_Nama/
-|-- source/
-|   `-- tugas_besar.cpp
-|-- laporan.pdf
-|-- screenshot/
-|   |-- 01_menu_awal.png
-|   |-- 02_menu_utama.png
-|   |-- 03_tambah_data.png
-|   |-- 04_tampil_data.png
-|   `-- 05_laporan_txt.png
-`-- output/
-    `-- laporan_1.txt
-```
 
 ## Kriteria Penilaian (Saran)
 - Kesesuaian topik (bebas, umum, di luar kampus): 20%
